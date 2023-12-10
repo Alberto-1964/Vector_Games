@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    p {
+      width: 80px;
+      height: 80px;
+      border: 0px;
+      padding: 40px;
+      margin: 5px;
+      font-size: 40px;
+      font-family: Arial;
+      text-align: center;
+      color: white;
+      display: inline-block;
+    }
+
+    p2 {
+      width: 80px;
+      height: 70px;
+      border: 0px;
+      padding: 40px;
+      margin: 5px;
+      font-size: 30px;
+      font-family: Arial;
+      text-align: center;
+      color: white;
+      display: inline-block;
+    }
+
+    input {
+      width: 80px;
+      height: 80px;
+      border: 5px;
+      padding: 40px;
+      margin: 5px;
+      font-size: 40px;
+      font-family: Arial;
+      text-align: center;
+      color: white;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body style="background-color:black; text-align:center;">
+  <br>
+  <h1 style="color:white; font-size:60px; font-family:Arial; text-align:center;" ,
+    title='Teclea los resultados de la siguiente serie de multiplicaciones todo lo rápido que puedas. Pulsa "Intro" después de teclear cada producto.'>
+    Factorigrama</h1>
+  <br><br>
+  <p id="f1" , style="background-color: #11b63a;"></p>
+  <p id="f2" , style="background-color: #11b63a;"></p>
+  <p id="f3" , style="background-color: #11b63a;"></p>
+  <p id="f123" , style="background-color: #b0a00e;"></p>
+  <br>
+  <p id="f4" , style="background-color: #11b63a;"></p>
+  <p id="f5" , style="background-color: #11b63a;"></p>
+  <p id="f6" , style="background-color: #11b63a;"></p>
+  <p id="f456" , style="background-color: #b0a00e;"></p>
+  <br>
+  <p id="f7" , style="background-color: #11b63a;"></p>
+  <p id="f8" , style="background-color: #11b63a;"></p>
+  <p id="f9" , style="background-color: #11b63a;"></p>
+  <p id="f789" , style="background-color: #b0a00e;"></p>
+  <br>
+  <p id="f147" , style="background-color: #b0a00e;"></p>
+  <p id="f258" , style="background-color: #b0a00e;"></p>
+  <p id="f369" , style="background-color: #b0a00e;"></p>
+  <p id="ENTER" , style="background-color: #11b63a;"></p>
+  <script>
+    f1 = 1;
+    f2 = 2;
+    f3 = 3;
+    f4 = 4;
+    f5 = 5;
+    f6 = 6;
+    f7 = 7;
+    f8 = 8;
+    f9 = 9;
+    f123 = f1 * f2 * f3;
+    f456 = f4 * f5 * f6;
+    f789 = f7 * f8 * f9;
+    f147 = f1 * f4 * f7;
+    f258 = f2 * f5 * f8;
+    f369 = f3 * f6 * f9;
+    ftotal = f123 + f456 + f789 + f147 + f258 + f369;
+    document.getElementById("f1").innerHTML = f1;
+    document.getElementById("f2").innerHTML = f2;
+    document.getElementById("f3").innerHTML = f3;
+    document.getElementById("f4").innerHTML = f4;
+    document.getElementById("f5").innerHTML = f5;
+    document.getElementById("f6").innerHTML = f6;
+    document.getElementById("f7").innerHTML = f7;
+    document.getElementById("f8").innerHTML = f8;
+    document.getElementById("f9").innerHTML = f9;
+    document.getElementById("f123").innerHTML = f123;
+    document.getElementById("f456").innerHTML = f456;
+    document.getElementById("f789").innerHTML = f789;
+    document.getElementById("f147").innerHTML = f147;
+    document.getElementById("f258").innerHTML = f258;
+    document.getElementById("f369").innerHTML = f369;
+    document.getElementById("ENTER").innerHTML = "ENT";
+  </script>
+
+</body>
+
+</html>
