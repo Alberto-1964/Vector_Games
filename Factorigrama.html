@@ -71,22 +71,31 @@
   <p id="f369" , style="background-color: #b0a00e;"></p>
   <p id="ENTER" , style="background-color: #11b63a;"></p>
   <script>
-    f1 = 1;
-    f2 = 2;
-    f3 = 3;
-    f4 = 4;
-    f5 = 5;
-    f6 = 6;
-    f7 = 7;
-    f8 = 8;
-    f9 = 9;
+    const solution = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    for (let i = solution.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      let k = solution[i];
+      solution[i] = solution[j];
+      solution[j] = k;
+    }
+    f1 = solution[0];
+    f2 = solution[1];
+    f3 = solution[2];
+    f4 = solution[3];
+    f5 = solution[4];
+    f6 = solution[5];
+    f7 = solution[6];
+    f8 = solution[7];
+    f9 = solution[8];
+
     f123 = f1 * f2 * f3;
     f456 = f4 * f5 * f6;
     f789 = f7 * f8 * f9;
     f147 = f1 * f4 * f7;
     f258 = f2 * f5 * f8;
     f369 = f3 * f6 * f9;
-    ftotal = f123 + f456 + f789 + f147 + f258 + f369;
+    ftotal = "ENT";
+
     document.getElementById("f1").innerHTML = f1;
     document.getElementById("f2").innerHTML = f2;
     document.getElementById("f3").innerHTML = f3;
@@ -102,7 +111,7 @@
     document.getElementById("f147").innerHTML = f147;
     document.getElementById("f258").innerHTML = f258;
     document.getElementById("f369").innerHTML = f369;
-    document.getElementById("ENTER").innerHTML = "ENT";
+    document.getElementById("ENTER").innerHTML = ftotal;
   </script>
 
 </body>
