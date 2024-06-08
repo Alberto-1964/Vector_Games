@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 10vh;
+  font-family: Arial;
+  text-align: center;
+}
+
+#buttonContainer {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 10px solid black;
+  width: 75vh;
+  height: 75vh;
+  font-family: Arial;
+}
+
+.buttonsF {
+  width: 15vh;
+  height: 15vh;
+  font-family: Arial;
+  font-size: 2em;
+  text-align: center;
+  background-color: hsl(90, 80%, 60%);
+  border-radius: 10px;
+}
+
+.buttonsP {
+  width: 15.8vh;
+  height: 15.8vh;
+  font-family: Arial;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  background-color: hsl(37, 85%, 45%);
+  border-radius: 10px;
+}
+
+.buttonsE {
+  width: 15.8vh;
+  height: 15.8vh;
+  font-family: Arial;
+  font-size: 2em;
+  text-align: center;
+  background-color: hsl(90, 80%, 60%);
+  border-radius: 10px;
+}
