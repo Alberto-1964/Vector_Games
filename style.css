@@ -32,8 +32,8 @@ h1 {
 }
 
 .buttonsP {
-  width: 15.8vh;
-  height: 15.8vh;
+  width: 16.4vh;
+  height: 16.4vh;
   font-family: Arial;
   font-size: 2em;
   color: white;
@@ -43,10 +43,10 @@ h1 {
 }
 
 .buttonsE {
-  width: 15.8vh;
-  height: 15.8vh;
+  width: 16.4vh;
+  height: 16.4vh;
   font-family: Arial;
-  font-size: 2em;
+  font-size: 1.2em;
   text-align: center;
   background-color: hsl(90, 80%, 60%);
   border-radius: 10px;
