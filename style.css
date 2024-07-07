@@ -9,6 +9,7 @@ h1 {
   font-family: Arial;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
 }
 
 #buttonContainer {
@@ -46,7 +47,7 @@ h1 {
   width: 16vh;
   height: 16vh;
   font-family: Arial;
-  font-size: 1.2em;
+  font-size: 2em;
   text-align: center;
   background-color: hsl(90, 80%, 60%);
   border-radius: 10px;

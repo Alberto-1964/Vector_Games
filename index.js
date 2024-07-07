@@ -21,7 +21,7 @@ s789 = s7 * s8 * s9;
 s147 = s1 * s4 * s7;
 s258 = s2 * s5 * s8;
 s369 = s3 * s6 * s9;
-enter = "ENTER";
+enter = "YA";
 
 document.getElementById("s123").innerHTML = s123;
 document.getElementById("s456").innerHTML = s456;
