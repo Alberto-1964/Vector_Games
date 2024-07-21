@@ -7,6 +7,8 @@ h1 {
   color: white;
   font-size: 10vh;
   font-family: Arial;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   justify-content: center;
 }
