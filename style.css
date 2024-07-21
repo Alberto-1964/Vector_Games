@@ -1,12 +1,13 @@
 body {
   background-color: black;
-  text-align: right;
+  text-align: center;
 }
 
 h1 {
   color: white;
   font-size: 10vh;
   font-family: Arial;
+  text-align: center;
   justify-content: center;
 }
 
