@@ -1,56 +1,76 @@
 body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: black;
-  text-align: center;
 }
 
 h1 {
   color: white;
   font-size: 10vh;
   font-family: Arial;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-  justify-content: center;
 }
 
 #buttonContainer {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5vh;
+  padding: 0.5vh;
   border: 10px solid black;
   width: 75vh;
   height: 75vh;
-  font-family: Arial;
 }
 
 .buttonsF {
   width: 15vh;
   height: 15vh;
+  border-radius: 1vh;
+  border: none;
   font-family: Arial;
   font-size: 2em;
   text-align: center;
   background-color: hsl(90, 80%, 60%);
-  border-radius: 10px;
+}
+
+.buttonsF:hover {
+  background-color: hsl(90, 80%, 70%);
 }
 
 .buttonsP {
-  width: 16.3vh;
-  height: 16.3vh;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 1vh;
+  border: none;
   font-family: Arial;
   font-size: 2em;
   color: white;
   text-align: center;
   background-color: hsl(37, 85%, 45%);
-  border-radius: 10px;
+}
+
+.buttonsP:hover {
+  background-color: hsl(37, 85%, 30%);
 }
 
 .buttonsE {
-  width: 16vh;
-  height: 16vh;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 1vh;
+  border: none;
   font-family: Arial;
-  font-size: 2em;
+  font-weight: bold;
+  font-size: 1em;
   text-align: center;
   background-color: hsl(90, 80%, 60%);
-  border-radius: 10px;
+}
+
+.buttonsE:hover {
+  background-color: hsl(90, 80%, 70%);
+}
+
+.buttonsE:active {
+  background-color: hsl(90, 80%, 40%);
 }
