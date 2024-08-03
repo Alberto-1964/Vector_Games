@@ -1,6 +1,8 @@
 const myHeading = document.getElementById("myHeading");
 myHeading.style.textAlign = "center";
 
+const enterButton = document.getElementById("enterButton");
+
 const solution = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 for (let i = solution.length - 1; i > 0; i--) {
   let j = Math.floor(Math.random() * (i + 1));
@@ -24,7 +26,6 @@ s789 = s7 * s8 * s9;
 s147 = s1 * s4 * s7;
 s258 = s2 * s5 * s8;
 s369 = s3 * s6 * s9;
-enterButton = "ENTRAR";
 
 document.getElementById("s123").innerHTML = s123;
 document.getElementById("s456").innerHTML = s456;
@@ -32,7 +33,20 @@ document.getElementById("s789").innerHTML = s789;
 document.getElementById("s147").innerHTML = s147;
 document.getElementById("s258").innerHTML = s258;
 document.getElementById("s369").innerHTML = s369;
-document.getElementById("enterButton").innerHTML = enterButton;
+
+enterButton.addEventListener("click", () =>
+  checkCorrectness(
+    u1.value,
+    u2.value,
+    u3.value,
+    u4.value,
+    u5.value,
+    u6.value,
+    u7.value,
+    u8.value,
+    u9.value
+  )
+);
 
 function checkCorrectness(u1, u2, u3, u4, u5, u6, u7, u8, u9) {
   userInputCorrect =
